@@ -1,0 +1,29 @@
+<!-- Mesmo cabeçalho do HTML anterior -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro de Provas</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Cadastrar Provas</h1>
+    <div class="form-container">
+        <form id="exam-form">
+            <!-- Campos para cadastrar uma prova -->
+            <label for="exam-name">Nome da Prova:</label>
+            <input type="text" id="exam-name" required>
+
+            <label for="exam-date">Data da Prova:</label>
+            <input type="date" id="exam-date" required>
+
+            <button type="submit">Cadastrar Prova</button>
+        </form>
+    </div>
+    <!-- Links para outras páginas -->
+    <a href="questions.html">Cadastro de Questões</a>
+    <a href="students.html">Cadastro de Alunos</a>
+    <a href="classes.html">Cadastro de Turmas</a>
+    <a href="exam-history.html">Histórico das Provas</a>
+    <script src="index.js"></script>
+</body>
+</html>

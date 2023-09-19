@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro de Professores</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Cadastro de Professores</h1>
+    <div class="form-container">
+        <form id="professor-form" action="/cadastrar-professor" method="POST">
+            <label for="professor-name">Nome do Professor:</label>
+            <input type="text" id="professor-name" required>
+
+            <label for="professor-id">ID do Professor:</label>
+            <input type="text" id="professor-id" required>
+
+            <label for="CPF">CPF</label>
+            <input type="text" id="CPF" required>
+
+            <label for="senha">Senha</label>
+            <input type="text" id="Senha" required>
+
+            <button type="submit">Cadastrar Professor</button>
+        </form>
+    </div>
+    <a href="historico.html">Historico</a>
+    <a href="index.html">Pagina Principal</a>
+    <a href="provas.html">Provas</a>
+    <a href="turmas.html">turmas</a>
+    <script src="cadastro.js"></script>
+    <script src="servidor.js"></script>
+</body>
+</html>
